@@ -14,13 +14,14 @@ system("cls");
     string endereco = "";
 
 //Entrada de dados
+cout<<"informe o seu Nome: ";
+    cin>>nome;  
     cout<<"Informe a sua idade: ";
     cin>>idade;
-    cout<<"informe o seu Nome: ";
-    cin>>nome;  
     cout<<"informe o seu Bairro: ";  
     cin>>bairro;  
     fflush(stdin);
+    cout<<"informe o seu Endereco: ";  
     getline(cin, endereco );
 
 
