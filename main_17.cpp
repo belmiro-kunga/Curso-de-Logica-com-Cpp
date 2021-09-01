@@ -14,6 +14,4 @@ int main(){
     getline (cin, nomeComapleto);
     cout << "O seu Nome é: " << nomeComapleto;
     return 0;
-
-    return(0);
 }
