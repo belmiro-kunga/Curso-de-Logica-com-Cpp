@@ -8,10 +8,12 @@ int main(){
     
 //system("cls");
 
+    
     string nomeComapleto;
-    cout<<"Escreva o seu Nome";
-    getline(cin, nomeComapleto);
-    cout<<"O seu Nome é: " <<nomeComapleto;
+    cout << "Escreva o seu Nome: ";
+    getline (cin, nomeComapleto);
+    cout << "O seu Nome é: " << nomeComapleto;
+    return 0;
 
     return(0);
 }
